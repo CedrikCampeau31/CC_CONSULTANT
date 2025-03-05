@@ -1,16 +1,21 @@
 {
-  "name": "professional-consulting-website",
+  "name": "cc_consultant",
   "private": true,
-  "version": "0.0.0",
+  "homepage": "https://CedrikCampeau31.github.io/CC_CONSULTANT",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^6.3.0",
     "i18next": "^24.2.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",

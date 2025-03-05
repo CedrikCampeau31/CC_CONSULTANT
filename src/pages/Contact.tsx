@@ -67,7 +67,7 @@ const Contact = () => {
             <div className="mt-4 text-center">
               <h3 className="text-lg font-medium text-gray-900">{t('contact_email')}</h3>
               <p className="mt-2 text-base text-gray-500">
-                cedrik.campeau@gmail.com
+                cc_consultants@gmail.com
               </p>
             </div>
           </div>
